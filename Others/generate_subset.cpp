@@ -16,12 +16,6 @@ void genSubsetBitWise(char *str) {
 		cout << endl;
 	}
 }
-/*
-void genSubsetRecursively(char *str) {
-	if (str == nullptr)
-		return;
-
-}*/
 
 int main(int argc, char* argv[]) {
 	char str[] = "abc";

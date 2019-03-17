@@ -34,7 +34,6 @@ void mergeSort(int numbers[], int lo, int hi) {
 }
 
 void Test(int numbers[], int length) {
-	cout << length << endl;
     auto start = high_resolution_clock::now();
     mergeSort(numbers, 0, length);
     auto stop = high_resolution_clock::now();
