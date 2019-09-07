@@ -10,7 +10,7 @@ int randM(int m, int n) {
 	int base = n;
 	int proposal = n - 1, bit_count = 1;
 	while (proposal + 1 < m) {
-		proposal = proposal * n + proposal - 1;
+		proposal = proposal * n + n - 1;
 		bit_count ++;
 	}
 	int reject_bount = ((proposal + 1)/ m) * m, result;
